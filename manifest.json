@@ -3,7 +3,8 @@
   "name": "Time Waster",
   "description": "Time Waster will occasionally pop up some modals reminding you to click around, sigh loudly, mutter a buzzword or two under your breath and type something into a text box. ",
   "version": "0.1",
-  "permissions": ["declarativeContent", "storage"],
+  "options_page": "options.html",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
