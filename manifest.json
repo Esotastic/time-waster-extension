@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Time Waster",
+  "description": "Time Waster will occasionally pop up some modals reminding you to click around, sigh loudly, mutter a buzzword or two under your breath and type something into a text box. ",
+  "version": "0.1",
+  "permissions": ["storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
